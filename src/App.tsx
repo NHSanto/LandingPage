@@ -1,15 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Navbar from "./Navbar";
+import Hero from "./Components/HeroSection/Hero-section";
 
 function App() {
-  return (
-    <div>
-      <Navbar/>
-
-    </div>
-  );
+    return (
+        <div>
+            <Hero/>
+        </div>
+    );
 }
 
 export default App;
