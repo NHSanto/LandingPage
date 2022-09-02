@@ -9,8 +9,8 @@ function NavbarMobile() {
         <>
             <div className="md:flex md:items-center md:justify-between flex justify-between h-[50px] w-full">
                <NavbarDesktop/>
-                <div className='hidden md:m-10 md:flex md:items-center md:justify-center mx-2'>
-                    <button className="bg-blue-600 hover:bg-blue-400 p-2 text-white rounded">Start Free Trail</button>
+                <div className='hidden lg:m-28 md:m-20 md:flex md:items-center md:justify-center'>
+                    <button className="bg-blue-600 hover:bg-blue-400 p-2 text-white rounded-lg">Start Free Trail</button>
                 </div>
                 <div className="flex items-center justify-between m-2 md:hidden" onClick={handleClick}>
                     {!nav ?

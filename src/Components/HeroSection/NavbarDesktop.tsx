@@ -3,9 +3,9 @@ import React from 'react'
 function NavbarDesktop() {
   return (
     <>
-        <div className="md:flex md:items-center md:m-10 md:justify-center mx-2">
+        <div className="md:flex md:items-center md:m-20 md:justify-center mx-2">
               <span>
-                 <img className="h-8" src="/images/Logo.png" alt="logo"/>
+                 <img className="h-[24px]" src="/images/Logo.png" alt="logo"/>
               </span>
             <span>
                <ul className='hidden md:flex md:items-center md:justify-between mx-4 mt-2'>
